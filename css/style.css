@@ -1,0 +1,53 @@
+.cookie-notice {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 20px;
+    z-index: 9999;
+    font-size: 14px;
+}
+
+.cookie-notice-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cookie-notice p {
+    margin: 0;
+    padding: 0;
+}
+
+.cookie-notice a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.cookie-button {
+    background: var(--wp-admin-theme-color, #007cba);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cookie-button:hover {
+    background: var(--wp-admin-theme-color-darker-10, #006ba1);
+}
+
+@media (max-width: 768px) {
+    .cookie-notice-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
