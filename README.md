@@ -30,6 +30,18 @@ Personalize as opções conforme necessário:
 ## Compatibilidade
 Este plugin foi testado e é compatível com as versões mais recentes do WordPress. Ele não interfere em outros plugins ou temas.
 
+### Aviso reaparecendo ao ativar Plugim LiteSpeed Cache
+Para fazer funcionar com LiteSpeed Cache, você também precisa:
+
+* No painel do WordPress, vá em LiteSpeed Cache > Cache
+* Adicione 'cookie_consent' à lista de "Do Not Cache Cookies"
+* Limpe o cache do LiteSpeed após fazer essas alterações
+
+
+Isso deve resolver o problema do aviso reaparecendo a cada recarga da página.
+
+
+
 ### Contribuições
 Contribuições são bem-vindas! Se você tiver sugestões ou encontrar algum problema, sinta-se à vontade para abrir uma issue ou enviar um pull request no repositório do GitHub.
 
